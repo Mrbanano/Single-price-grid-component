@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Karla:400,700&display=swap");
 :root {
   --Cyan: hsl(179, 62%, 43%);
-  --CyanLigth:#4abebd ;
+  --CyanLigth: #4abebd;
   --BrightYellow: hsl(71, 73%, 54%);
   /*Neutral*/
   --LightGray: hsl(204, 43%, 93%);
@@ -13,25 +13,95 @@
   padding: 0;
   font-family: "Karla", sans-serif;
 }
-
-.container{
+body {
   background: var(--LightGray);
-  border: 1px solid red;
+  margin: 0;
+}
+.container {
   max-width: 1440px;
   margin: 0 auto;
-  width: 100%;
+  height: 100vh;
+}
+.wrapper {
+  margin: 0 2em 0 2em;
 }
 
-.card{
+#title {
+  color: var(--Cyan);
+  padding: 2em 0 2em 0;
+  font-size: 1em;
+  font-weight: 700;
+}
+#subtitle {
+  color: var(--BrightYellow);
+  font-size: 1em;
+  margin-bottom: 1.5625em;
+  font-weight: 700;
+}
+
+#text {
+  color: var(--GrayishBlue);
+  font-size: 0.76em;
+  margin-bottom: 2.5em;
+}
+
+.card {
   margin: 4.5em 2em;
   border-radius: 10px;
   background-color: white;
-  
 }
-
-.prices{
+.prices {
   background-color: var(--Cyan);
+  color: white;
+  font-size: 0.9em;
 }
-.footer{
-  background-color:var(--CyanLigth);
+.prices h2 {
+  font-size: 1em;
+  padding: 2.07em 0 1.571em 0;
+}
+.prices #price {
+  color: #eee;
+  vertical-align: middle;
+  padding: 0 0 1em 0;
+  font-weight: 400;
+}
+.prices p span {
+  font-size: 2.01em;
+  color: white;
+  padding: 0 0.5em 0 0;
+}
+.prices #outline {
+  font-size: 1em;
+}
+.prices input {
+  background: var(--BrightYellow);
+  border: none;
+  font-size: 1em;
+  width: 100%;
+  color: white;
+  font-weight: 400;
+  height: 3.4285em;
+  margin: 2.4285em 0 1.75em 0;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 10px 15px -13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 15px -13px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 15px -13px rgba(0, 0, 0, 0.75);
+}
+.footer {
+  background-color: var(--CyanLigth);
+  color: white;
+}
+.footer h2{
+  padding: 2.071em 0;
+  font-size: 1em;
+  font-weight: 700;
+
+}
+.footer ul{
+  list-style: none;
+  color: #eee;
+  padding-bottom: 1em;
+}
+.footer li{
+   margin: 0 0 0.3em 0;
 }
