@@ -26,7 +26,7 @@ body {
   margin: 0 2em 0 2em;
 }
 
-#title {
+h1{
   color: var(--Cyan);
   padding: 2em 0 2em 0;
   font-size: 1em;
